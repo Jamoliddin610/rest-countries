@@ -81,20 +81,23 @@ body {
   width: 480px;
   box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
   border-radius: 5px;
+  height: 56px;
 }
 
 .bx-search-alt-2 {
   color: var(--text-color);
-  font-size: 25px;
-  margin-right: 24px;
+  font-size: 20px;
+  margin-right: 20px;
+
+
 }
 input[type="text"] {
   background-color: transparent;
   color: var(--text-color);
-  font-size: 18px;
-  padding: 5px 0;
   width: 85%;
   border: none;
+ font-size: 14px;
+ line-height: 20px;
 }
 input[type="text"]:focus {
   outline: none;
@@ -103,14 +106,106 @@ input[type="text"]:focus {
   color: var(--placeholder-color);
 }
 
-/* .box {
+
+.select-css {
+  padding: 18px 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  appearance: none ;
+  background-color: #fff;
   width: 200px;
-  height: 200px;
-  background-color: var(--box-bg-color);
-  margin-bottom: 10px;
+  height: 56px;
+  background-color: var(--primary-color);
+  
+}
+select{
+  border: none;
+  outline: none;
+  appearance: none;
+  background-color: var(--primary-color);
+  font-family: Nunito Sans;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-color);
+  
+}
+.bx-chevron-down{
+  font-size: 20px;
+}
+.countries-list{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4,264px);
+  grid-template-rows: repeat(4,336px);
+  padding: 48px 0;
+  grid-gap: 75px;
+}
+.countries-items{
+  background-color: var(--primary-color);
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.img-box{
+  width: 100%;
+  height: 160px;
+  background-image: url('../imgs/12Flag_of_Germany.svg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.first{
+  background-image: url('../imgs/flagofamireca.svg');
+}
+.second{
+  background-image: url('../imgs/flagofbrazila.svg');
+}
+.third{
+  background-image: url('../imgs/flagoficeland.svg');
+}
+.four{
+  background-image: url('../imgs/flagofafganistan.svg');
+}
+.five{
+  background-image: url('../imgs/flafofalendisland.svg');
+}
+.six{
+  background-image: url('../imgs/flagofalbane.svg');
+}
+.seven{
+  background-image: url('../imgs/flagofalgeria.svg');
+}
+.abouts{
+  width: 100%;
+  height: 176px;
+  padding: 24px 24px 46px 24px;
+}
+.counries-name{
+  font-family: Nunito Sans;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+span{
+  font-family: Nunito Sans;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text-color);
+  
+}
+.statics{
+  font-family: Nunito Sans;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 8px;
 }
 
 
-.content {
-  --box-bg-color: rgb(0, 4, 255);
-} */
+
